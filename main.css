@@ -1,0 +1,126 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD
+}
+
+
+.container {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding: 0 6px;
+}
+.title {
+  display: inline-block;
+  border-radius: 100%;
+  font-weight: 800;
+}
+
+.title h1 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+label {
+	display: block;
+}
+
+.input1 .searchbutton{
+	display: block;
+	width:300px;
+}
+
+.searchbutton {
+	position: relative;
+	width:19px;
+	height:19px;
+	top: 6px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px;
+}
+#wrapper {
+  position: fixed;
+  top: 100px;
+  left: 60px ;
+}
+
+.maglass {
+	height: 20px;
+	width: 20px;
+	border-color: black;
+}
+.navigationsearch {
+	display: inline-block;
+}
+
+.pages {
+  display: inline-block; /* Tricky, this could start wrapping!  */
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  top:140px;
+  left: 52px;
+  position: relative;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.listings {
+  position: relative;
+  padding: 0;
+  top:120px;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.search-button {
+  vertical-align: bottom;
+}
+
+.star-icon, .magnifying-glass-icon {
+  height: 100%;
+}
+
+
+
